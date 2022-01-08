@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Etch A Sketch</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ETCH A SKETCH, YO</h2>
+        </header>
+
+        <div class="grid"></div>
+
+        <div class="bottom-panel">
+            <div class="grid-density">
+                <p>Grid Size:</p>
+                <input id="range" type="range" min="2" max="100" value="16" id="slider">
+                <p class="slider-value-text">16x16</p>
+            </div>
+            <div class="grid-mode">
+                <p>Mode:</p>
+                <button class="mode-classic-btn selected">Classic</button>
+                <button class="mode-vintage-btn">Vintage</button>
+                <button class="mode-freaky-btn">Freaky</button>
+            </div>
+            <button class="clear-btn">Clear Game</button>
+        </div>
+    </div>
+</body>
+</html>
